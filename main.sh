@@ -83,7 +83,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/bayuvpn/v3/main/"
+    REPO="https://raw.githubusercontent.com/Sage1221/autoscript/main/"
 
 ####
 start=$(date +%s)
@@ -271,7 +271,7 @@ curl "ipinfo.io/org?token=7a814b6263b02c" > /root/.isp ; curl "ipinfo.io/city?to
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/bayuvpn/izin/main/ip"
+izinsc="https://raw.githubusercontent.com/Sage1221/autoscript/main/akses.txt"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -307,8 +307,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="6648546911"
-KEY="6759437364:AAHxPkNkjXUvffQ4QZaVWjkoEJqAdmfgOwI"
+CHATID="5763700642"
+KEY="6891830119:AAEu06degCER47do18XcQrA2GW-8t2q14-Q"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
@@ -533,7 +533,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/bayuvpn/v3/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/Sage1221/autoscript/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
